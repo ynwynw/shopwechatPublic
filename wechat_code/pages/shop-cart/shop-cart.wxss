@@ -1,0 +1,108 @@
+.product-container {
+background-color: rgb(237, 237, 237);
+height: 100vh;
+}
+
+.product-list {
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+
+.product-item {
+background-color: #fff;
+margin-bottom: 20rpx;
+}
+
+.product-item-content {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20rpx;
+}
+
+.sel-icon {
+/* margin-right: 20rpx; */
+}
+
+.product-item-wrap {
+background-color: pink;
+}
+
+.goods-img {
+width: 150rpx;
+height: 150rpx;
+}
+
+.add-btn,
+.subtract-btn {
+background-color: rgb(222, 0, 48);
+color: #fff;
+font-size: 42rpx;
+padding: 0 12rpx 10rpx 12rpx;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+}
+
+.offsubtract-btn {
+/* .subtract-btn { */
+background-color: rgb(222, 0, 48);
+color: #fff;
+font-size: 42rpx;
+padding: 0 20rpx;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+opacity: 0.5;
+}
+
+.subtract-btn {
+padding: 0 20rpx;
+}
+
+.btn-groups {
+display: flex;
+background-color: rgb(243, 242, 243);
+justify-content: space-between;
+width: 26vw;
+border-radius: 20%;
+}
+
+
+.buynumber {
+align-self: center;
+}
+
+.cart-fixbar {
+position: fixed;
+z-index: 999;
+background-color: rgb(222, 0, 48);
+width: 100vw;
+bottom: 0;
+display: flex;
+align-items: center;
+justify-content: space-around;
+color: #ffffff;
+padding: 10px;
+}
+
+.allSelect {
+display: flex;
+align-items: center;
+/* justify-content: space-between; */
+}
+
+.count,
+.order {
+/* margin-right: 30px; */
+}
+
+.orders {
+background-color: #fff;
+color: rgb(222, 0, 48);
+padding: 10rpx;
+border-radius: 10rpx;
+}

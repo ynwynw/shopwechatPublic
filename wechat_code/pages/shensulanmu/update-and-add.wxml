@@ -1,0 +1,22 @@
+
+<view class="update-container">
+ <view class="content">
+     <view class="form-box">
+    <view class="item-box">
+        <view class="item-label">申述电话</view>
+        <input  class="item-input" type="text"  disabled="true"  placeholder="申述电话" model:value="{{shenshudianhua}}" />
+    </view>
+     </view>
+
+
+     <view class="btn-box">
+
+
+
+  <button     class="submit-btn" bindtap="submit">提交</button>
+     </view>
+
+
+    </view>
+
+</view>

@@ -1,0 +1,239 @@
+/* pages/register/register.wxss */
+
+
+.register-container {
+min-height: calc(100vh - 44px);
+box-sizing: border-box;
+}
+
+.content-box {
+width
+:100%;
+padding
+:0 0 0 0;
+position
+:relative;
+background
+:#ff993310;
+height
+:100%;
+}
+.userInfo-from{
+padding
+:24rpx 24rpx 24rpx 24rpx;
+background
+:none;
+display
+:block;
+height
+:auto;
+}
+.item-box{
+padding
+:0px 0 0px 0;
+margin
+:0 0 24rpx 0;
+border-color
+:#eeeeee;
+align-items
+:center;
+border-radius
+:0px 0 0 0px;
+border-width
+:0px;
+background
+:none;
+display
+:flex;
+width
+:100%;
+border-style
+:solid;
+height
+:auto;
+}
+.item-label{
+line-height
+:80rpx;
+font-size
+:28rpx;
+color
+:#666;
+text-align
+:right;
+padding-left:40rpx;
+padding-right: 20rpx;
+}
+.item-input{
+border
+:2rpx solid #eeeeee;
+padding
+:0px 24rpx 0px 24rpx;
+margin
+:0 0 0 0;
+color
+:#666666;
+border-radius
+:0px;
+flex
+:1;
+background
+:#fff;
+font-size
+:28rpx;
+height
+:64rpx;
+}
+.item-img{
+width
+:80rpx;
+border-radius
+:100%;
+object-fit
+:cover;
+display
+:block;
+height
+:80rpx;
+}
+
+.down-item-picker{
+width
+:100%;
+flex
+:1;
+height
+:auto;
+}
+.down-item-picker-text{
+border
+:2rpx solid #eeeeee;
+padding
+:0 20rpx;
+color
+:#888888;
+background
+:#ffffff;
+width
+:100%;
+line-height
+:64rpx;
+font-size
+:28rpx;
+}
+.save-btn{
+border
+:0;
+padding
+:0 0 0 0;
+margin
+:0 20rpx 0 20rpx;
+color
+:#fff;
+border-radius
+:40rpx;
+background
+:#ff9933;
+width
+:240rpx;
+line-height
+:80rpx;
+font-size
+:28rpx;
+height
+:80rpx;
+}
+.quite-btn{
+border
+:0;
+padding
+:0 0 0 0;
+margin
+:0 20rpx 0 20rpx;
+color
+:#333;
+border-radius
+:40rpx;
+background
+:#ff993330;
+width
+:240rpx;
+line-height
+:80rpx;
+font-size
+:28rpx;
+height
+:80rpx;
+}
+.btn-box{
+width
+:100%;
+margin
+:40rpx 0 0 0;
+justify-content
+:center;
+display
+:flex;
+height
+:auto;
+}
+.item-radio-itemBox{
+align-items
+:center;
+display
+:flex;
+}
+.item-radio-item{
+align-items
+:center;
+margin
+:0 20rpx 0 0;
+display
+:flex;
+}
+
+.item-checkbox-itemBox{
+align-items
+:center;
+display
+:flex;
+display: flex;
+
+}
+.radio-itemText{
+color
+:#666666;
+}
+
+.item-checkbox-item{
+align-items
+:center;
+margin
+:0 20rpx 0 0;
+display
+:flex;
+display: flex;
+margin-right: 20rpx;
+}
+.active{
+color
+:#ff9933;
+}
+checkbox .wx-checkbox-input {
+border
+:2rpx solid #999999;
+border-radius
+:0;
+background
+:#ffffff;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+border
+:2rpx solid #ff9933;
+color
+:#ff9933;
+border-radius
+:0;
+background
+:#ffffff;
+}

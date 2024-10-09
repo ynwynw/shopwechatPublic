@@ -1,0 +1,45 @@
+<view class="product-container">
+    <view class="product-list">
+        <view class="product-item" wx:for="{{slideProductList}}" wx:key='index'>
+            <view pid="{{item.id}}" bindaction="handleSlideDelete" wx:key='slideProductList' class="product-item-content">
+                <icon type="{{item.select}}" size="19" data-index="{{index}}" data-select="{{item.select}}" bindtap="change" color="red" class="sel-icon" />
+                <image src="{{baseURL+'/'+item.picture}}" class='goods-img' mode="aspectFit"></image>
+                <view class="product-movable-item">
+                    <view class="goods-name">{{item.name}}</view>
+                    <view class="goods-type">
+                        <text>{{item.goodname}}</text>
+                    </view>
+                    <view class="goods-price">￥{{item.price}}</view>
+                </view>
+                <view class="product-movable-item product-movable-item-amount">
+                    <view class="num-box">
+                        <view class="btn-groups">
+
+                            <view class="subtract-btn" data-item="{{item}}" data-index="{{index}}" bindtap="subtraction">
+                                -
+                            </view>
+                            <view class="buynumber">{{item.buynumber}}</view>
+                            <view class="add-btn" data-index="{{index}}" data-buynumber="{{item.buynumber}}" bindtap="addtion">+</view>
+
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="cart-fixbar">
+        <view class="allSelect">
+            <icon type="{{allSelect}}" size="19" data-select="{{allSelect}}" bindtap="allSelect" color='#fff' />
+            <view class="allSelect-text">全选</view>
+        </view>
+        <view class="count">
+            <text>合计：</text>￥{{count}}
+        </view>
+        <view class="order">
+            <view class="orders" bind:tap="settlementTap">
+                去结算
+                <text class="allnum">({{buynumber}})</text>
+            </view>
+        </view>
+    </view>
+</view>

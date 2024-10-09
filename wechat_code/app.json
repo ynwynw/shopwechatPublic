@@ -1,0 +1,121 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/login/login",
+  
+      "pages/forget/forget",
+    "pages/yonghu/register",
+  
+    "pages/shop-orders/orders-confirm",
+    "pages/shop-orders/orders-list",
+    "pages/shop-recharge/recharge",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-recharge/pay-confirm",
+  
+      "pages/chat/list",
+      "pages/user-info/user-info",
+      "pages/exampaper/exam",
+      "pages/exampaper/list",
+      "pages/examfailrecord/list",
+      "pages/examrecord/list",
+      "pages/examrecord/detail",
+      "pages/forum/forum-add-or-update",
+      "pages/forum/forum-my",
+      "pages/forum/forum-list",
+      "pages/forum/forum-detail",
+      "pages/forum/forum-index",
+      "pages/reply/reply",
+  
+      "pages/messages/list",
+      "component/dateTimePicker/dateTime",
+      "component/com-date/com-date",
+      "component/com-editor/com-editor",
+      "component/edit-and-add/edit-and-add",
+      "component/comment-item/comment-item",
+      "component/com-popup/com-popup",
+      "component/com-video/com-video",
+      "component/com-manySel/com-manySel",
+      "component/tree-menu/tree-menu",
+    "pages/news/detail",
+    "pages/news/list",
+     "pages/yonghu/detail",
+      "pages/yonghu/update-and-add",
+      "pages/yonghu/list",
+    "pages/storeup/list",
+     "pages/shangpinleixing/detail",
+      "pages/shangpinleixing/update-and-add",
+      "pages/shangpinleixing/list",
+     "pages/shangpinxinxi/detail",
+      "pages/shangpinxinxi/update-and-add",
+      "pages/shangpinxinxi/list",
+     "pages/shangjia/detail",
+      "pages/shangjia/update-and-add",
+      "pages/shangjia/list",
+     "pages/paotuidingdan/detail",
+      "pages/paotuidingdan/update-and-add",
+      "pages/paotuidingdan/list",
+     "pages/paotuijiedan/detail",
+      "pages/paotuijiedan/update-and-add",
+      "pages/paotuijiedan/list",
+     "pages/dingdanwancheng/detail",
+      "pages/dingdanwancheng/update-and-add",
+      "pages/dingdanwancheng/list",
+     "pages/shensulanmu/detail",
+      "pages/shensulanmu/update-and-add",
+      "pages/shensulanmu/list",
+     "pages/discussshangpinxinxi/detail",
+      "pages/discussshangpinxinxi/update-and-add",
+      "pages/discussshangpinxinxi/list",
+      "pages/addcomment/addcomment",
+      "pages/center/center"
+    ],
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序位置接口的"
+      }
+    },
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "Weixin",
+      "navigationBarTextStyle": "black"
+    },
+  
+    "tabBar": {
+      "selectedColor": "#33a3dc",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "/static/index.png",
+          "selectedIconPath": "/static/index1.png",
+          "text": "首页"
+        },
+    {
+    "pagePath": "pages/shangpinxinxi/list",
+      "iconPath": "/static/tabs/1/icon1.png",
+      "selectedIconPath": "/static/tabs/1/icon1_act.png",
+        "text": "商品信息"
+    },
+  {
+    "pagePath": "pages/news/list",
+    "iconPath": "static/tabs/1/news.png",
+    "selectedIconPath": "static/tabs/1/news_act.png",
+    "text": "商品资讯"
+  },
+    {
+    "pagePath": "pages/paotuidingdan/list",
+      "iconPath": "/static/tabs/1/icon2.png",
+      "selectedIconPath": "/static/tabs/1/icon2_act.png",
+        "text": "跑腿订单"
+    },
+        {
+          "pagePath": "pages/center/center",
+          "iconPath": "static/tabs/1/mine.png",
+          "selectedIconPath": "static/tabs/1/mine1.png",
+          "text": "我的"
+        }
+  
+      ]
+    },
+    "sitemapLocation": "sitemap.json"
+  }

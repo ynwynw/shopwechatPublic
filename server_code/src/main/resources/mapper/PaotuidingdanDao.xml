@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cl.dao.PaotuidingdanDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.cl.entity.PaotuidingdanEntity" id="paotuidingdanMap">
+        <result property="paotuimingcheng" column="paotuimingcheng"/>
+        <result property="shangpinmingcheng" column="shangpinmingcheng"/>
+        <result property="songdadizhi" column="songdadizhi"/>
+        <result property="tupian" column="tupian"/>
+        <result property="paotuifei" column="paotuifei"/>
+        <result property="shouhuoren" column="shouhuoren"/>
+        <result property="shouhuorenshouji" column="shouhuorenshouji"/>
+        <result property="fabushijian" column="fabushijian"/>
+        <result property="shangjiazhanghao" column="shangjiazhanghao"/>
+        <result property="shangjiadizhi" column="shangjiadizhi"/>
+        <result property="jiedanzhuangtai" column="jiedanzhuangtai"/>
+    </resultMap>
+
+    <select id="selectListView"
+		resultType="com.cl.entity.view.PaotuidingdanView" >
+
+		SELECT  paotuidingdan.* FROM paotuidingdan  paotuidingdan 	        
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.cl.entity.view.PaotuidingdanView" >
+		SELECT * FROM paotuidingdan  paotuidingdan <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+
+</mapper>
